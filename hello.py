@@ -3,10 +3,7 @@ __author__ = 'cck4mn'
 # 2/22/16
 # CS 3240 Lab 5
 
-def greeting(msg):
-
-    s = msg
-    print(s)
+from helper import greeting
 
     
 if __name__ == "__main__":
