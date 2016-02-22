@@ -3,13 +3,16 @@ __author__ = 'cck4mn'
 # 2/22/16
 # CS 3240 Lab 5
 
-def test1():
+def greeting(msg):
 
-    s = "Hello"
+    s = msg
+    print(s)
+
     
 if __name__ == "__main__":
 
-    print("hello")
+    msg = "hello"
+    greeting(msg)
 
 
 
